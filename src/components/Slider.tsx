@@ -48,7 +48,7 @@ const Slider = () => {
               alt=""
               width={400}
               height={400}
-              className="w-screen h-[auto]  md:w-[50vw] md:max-w-[50vw] md:h-[auto] xl:w-[900px] xl:h-full  object-cover object-center xl:object-scale-down  "
+              className="w-screen h-[auto] bg-transparent  md:w-[50vw] md:max-w-[50vw] md:h-[auto] xl:w-[900px] xl:h-full  object-cover object-center xl:object-scale-down  "
             />
           </div>
         ))}
