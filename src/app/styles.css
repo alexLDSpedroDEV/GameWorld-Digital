@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+    overflow-x: hidden;
+    
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* animation */
+.animation {
+  
+  position: relative;
+  animation-name: animation;
+  animation-duration: 4s;
+}
+
+.animationText1{
+  
+  position: relative;
+  animation-name: animationText1;
+  animation-duration: 4s;
+}
+
+@keyframes animationText1 {
+  0%   {left: -1000px}
+  
+  100% {left: 0px;}
+}
+
+.animationText2{
+  
+  position: relative;
+  animation-name: animationText2;
+  animation-duration: 5s;
+}
+
+@keyframes animationText2 {
+  0%   {left: 1000px}
+  
+  100% {left: 0px;}
+}
+
+.animationImageRotative{
+  position: relative;
+  animation-name: animationImageRotative;
+  animation-duration: 5s;
+}
+
+@keyframes animationImageRotative{
+  0%    {transform: rotateY( 0deg );}
+  50%   {transform: rotateY( 180deg );}
+  100%  {transform: rotateY( 0deg );}
+}
+
+.animationImage{
+  position: relative;
+  animation-name: animationImage;
+  animation-duration: 10s;
+}
+
+@keyframes animationImage{
+  0%    {top: 1000px;}
+  50%   {top: 200px}
+  100%  {top: 460px;}
+}
+
+
+
+@keyframes animation {
+  0%   {top: -600px;}
+  
+  100% {top:-250px;}
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #DEAF65;
+  heigth: 20px;
+}
+
+body {
+  overflow: hidden;
+}
+.jim-nightshade-regular {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.imgBackground{
+  position: absolute;
+  z-index: -100;
+}
+.imgBackgroundInstagram{
+  position: absolute;
+  z-index: -2;
+  
+}
+.fundoBackground{
+  width: 100vw;
+  position: absolute;
+  background: #000;
+  z-index: -50;
+}
+
+
+.hs {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, calc(50% - 40px));
+  grid-template-rows: minmax(150px, 1fr);
+  color: red;
+}
+
