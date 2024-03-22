@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '@/../image/logo2.png'
+import logo from '@/../../public/images/logo.png';
 import Image from "next/image";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";

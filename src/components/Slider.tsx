@@ -30,9 +30,9 @@ const Slider = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeImage]);
   return (
-    <main className=" order-2  min-h-[300px] md:h-[600px] md:order-1 grid place-items-center md:grid-cols-2 grid-cols-1 w-full mx-auto xl:max-w-5xl ">
+    <main className=" order-2  min-h-[100vh] md:h-[auto] md:order-1 grid place-items-center xl:grid-cols-2 xl:grid-cols-[55vw,30vw] grid-cols-1 w-full mx-auto xl:min-h-[400px] xl:my-20 md:max-w-[80vw] xl:max-w-[90vw] xl:items-start xl:gap-10 xl:h-[400px] overflow-hidden border border-black shadow-lg">
       <div
-        className={`w-full xl:pr-[100px]  md:w-[50vw] min-h-[300px] md:min-h-[400px] flex justify-center items-center gap-4 transition-transform ease-in-out duration-500  md:p-0`}
+        className={`w-full xl:pr-[100px]  xl:w-[50vw] min-h-[auto] xl:min-h-[300px] flex justify-center lg:w-[80vw] items-start xl:items-center gap-4 transition-transform ease-in-out duration-500  xl:p-0`}
       >
         {images.map((elem, idx) => (
           <div
@@ -48,7 +48,7 @@ const Slider = () => {
               alt=""
               width={400}
               height={400}
-              className="w-screen h-[auto] bg-transparent  md:w-[50vw] md:max-w-[50vw] md:h-[auto] xl:w-[900px] xl:h-full  object-cover object-center xl:object-scale-down  "
+              className="w-screen h-[auto] bg-transparent  xl:w-[55vw] xl:max-w-[50vw] md:h-[auto] xl:w-[900px] xl:h-full  object-center object-center xl:object-scale-down  "
             />
           </div>
         ))}
