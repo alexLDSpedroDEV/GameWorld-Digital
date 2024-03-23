@@ -30,7 +30,7 @@ const Slider = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeImage]);
   return (
-    <main className=" order-2  min-h-[100vh] md:h-[auto] md:order-1 grid place-items-center xl:grid-cols-2 xl:grid-cols-[55vw,30vw] grid-cols-1 w-full mx-auto xl:min-h-[400px] xl:my-20 md:max-w-[80vw] xl:max-w-[90vw] xl:items-start xl:gap-10 xl:h-[400px] overflow-hidden border border-black shadow-lg">
+    <main className=" order-2  min-h-[100vh] md:h-[auto] md:order-1 grid place-items-center xl:grid-cols-2 xl:grid-cols-[55vw,30vw] grid-cols-1 w-full mx-auto  xl:min-h-[400px] xl:my-20 md:max-w-[80vw] xl:max-w-[90vw] xl:items-start xl:gap-10 xl:h-[400px] overflow-hidden border border-black shadow-lg">
       <div
         className={`w-full xl:pr-[100px]  xl:w-[50vw] min-h-[auto] xl:min-h-[300px] flex justify-center lg:w-[80vw] items-start xl:items-center gap-4 transition-transform ease-in-out duration-500  xl:p-0`}
       >

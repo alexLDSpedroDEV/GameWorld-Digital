@@ -3,15 +3,15 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import logo from '@/../../public/images/logo.png';
+
+
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdHome } from "react-icons/io";
 import { MdHomeRepairService } from "react-icons/md";
 import { MdOutlineWork } from "react-icons/md";
 import { HiOutlineBellAlert } from "react-icons/hi2";
-import { RiContactsFill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import { FaShoppingCart } from "react-icons/fa";
-
 
 
 interface MyProps {
