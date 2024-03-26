@@ -3,6 +3,9 @@ import Homes from "./home/page";
 import Footer from "./footer/page";
 import Populares from "./populares/page";
 import MaisVendidos from "./maisVendidos/page";
+import Banner from "./banner/page";
+import Descontos from "./descontos/page";
+
 import Link from "next/link";
 export default function Home() {
   return (
@@ -10,8 +13,11 @@ export default function Home() {
       <Homes />
       <Populares/>
       <MaisVendidos />
+      <Banner />
+      <MaisVendidos />
+      <Descontos />
+      <MaisVendidos />
       <Footer />
-      
     </main>
   );
 }

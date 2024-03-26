@@ -4,10 +4,28 @@ import React from "react";
 import CarrocelComponts from "@/components/carrocel";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from 'next/navigation'; 
 
-const maisVendidos = () => {
+interface Slide {
+  id: number;
+  src: string;
+  title: string;
+  link: string;
+  desc: string;
+  value: any;
+}
 
-  const slide = [
+
+const MaisVendidos = () => {
+
+  const router = useRouter();
+
+    const handlesClick = () => {
+        console.log("placing ypor order");
+        router.push("banner/page")
+    }
+
+  const slide: Slide[] = [
     {
       id: 0,
       src: "/popular/image1.jpg",
@@ -71,29 +89,15 @@ const maisVendidos = () => {
 
   ]
 
+
   return (
     <section className=" bg-black grid justify-center  grid mt-4  m-auto w-screen h-[600px]">
       <div className=" xl:max-w-[1200px] w-auto overflow-hidden">
         <div className="text-[2em] mb-10 pl-5 font-bold text-white ">Best sellers</div>
-        <CarrocelComponts>
-          {
-            slide.map((s, key) => (
-              <div key={key} className="text-white h-[450px] grid max-w-[222px]">
-                <Image src={s.src} alt="dawd" className="rounded-xl max-w-[200px] h-[300px]" height={0} width={300}></Image>
-                <h1 className="text-[1em] pt-4 font-serif">{s.title}</h1>
-                <div className="grid justify-around items-center grid-cols-2">
-                  <p>${s.value}</p>
-                  <Link href={"/maisVendidos/about/page"}>
-                    <div className="p-2 bg-[#3CB6C0] rounded-lg cursor-pointer">Purchase</div>
-                  </Link>
-                </div>
-              </div>
-            ))}
-        </CarrocelComponts>
-
+        <CarrocelComponts sliders={slide}/>
       </div>
     </section>
   );
 };
 
-export default maisVendidos;
+export default MaisVendidos;
