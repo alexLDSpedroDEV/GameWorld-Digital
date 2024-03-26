@@ -14,9 +14,12 @@ interface Slide {
   value: any;
 }
 
+interface PropsData {
+  title: string
+}
 
 
-const Populares = () => {
+const Populares = (props: PropsData) => {
 
     const slide: Slide[] = [
         {
@@ -111,7 +114,7 @@ const Populares = () => {
     return (
         <section className=" bg-black grid justify-center  grid mt-4  m-auto w-screen h-[600px]">
             <div className=" xl:max-w-[1200px] w-auto overflow-hidden">
-                <div className="text-[2em] mb-10 pl-5 font-bold text-white ">Populares</div>
+                <div className="text-[2em] mb-10 pl-5 font-bold text-white ">{props.title}</div>
                 <CarrocelComponts sliders={slide}/>
             </div>
         </section>

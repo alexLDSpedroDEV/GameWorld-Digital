@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <main className=" overflow-x-hidden bg-black w-[100vw]">
       <Homes />
-      <Populares/>
-      <MaisVendidos />
+      <Populares title="Popular"/>
+      <MaisVendidos title="Best sellers"/>
       <Banner />
-      <MaisVendidos />
+      <MaisVendidos title="Popular"/>
       <Descontos />
-      <MaisVendidos />
+      <MaisVendidos title="Popular"/>
       <Footer />
     </main>
   );
