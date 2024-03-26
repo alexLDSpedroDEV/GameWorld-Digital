@@ -32,18 +32,7 @@ const Footer = () => {
                             <a href="https://github.com/alexLDSpedroDEV" target="_blank" rel="noopener noreferrer" className="text-gray-400 cursor-pointer">GitHub</a>
                         </div>
                     </div>
-                    <div className="text-white grid grid-cols-1 lg:grid-cols-1 pl-4 lg:px-10 items-center">
-                        <div className='flex '>
-                            <h1 className=' text-[20px] md:text-[0.7rem] pr-4 pb-5 cursor-pointer grid'> <BsFillTelephoneFill   className="text-textlogo text-[25px]"/></h1>
-                            <h1 className=' hidden text-lg sm:text-[0.8rem]'>Telefone Para Contato</h1>
-                            <h3 className=' text-lg font-bold sm:text-[0.8rem] md:text-[1rem]'>19 982092481</h3>
-                        </div>
-                        <div className=' flex  '>
-                            <h1 className=' text-[20px] md:text-[0.7rem] pr-4  cursor-pointer'> <MdEmail  className="text-textlogo text-[25px]"/></h1>
-                            <h1 className='  hidden text-lg sm:text-[0.8rem]'>Email Para Contato</h1>
-                            <h3 className='  font-bold sm:text-[0.8rem] md:text-[1rem]'>AlexLopes_pedro@hotmail.com</h3>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div className="w-screen py-8 bg-bglogo text-center text-gray-700">Copyright © 2024 AlexPedro Dev</div>
             </div>

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div id="portifolio" className=" bg-[#000]">
       <div>
-      <NavBar title="React" />
+        <NavBar title="React" />
         <Slider/>
       </div>
     </div>

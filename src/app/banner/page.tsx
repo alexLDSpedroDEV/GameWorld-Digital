@@ -3,7 +3,7 @@ import Slider from '@/components/Slider'
 
 function Banner() {
   return (
-    <div>
+    <div id='banner'>
         <Slider />
     </div>
   )

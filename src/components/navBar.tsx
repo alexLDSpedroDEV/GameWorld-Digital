@@ -60,11 +60,11 @@ const NavBar = (props: MyProps) => {
                         </li>
                         <li className='flex gap-5 h-[50px] text-[20px] items-center'>
                             <MdHomeRepairService  className='text-[30px]'/> 
-                            <a className='#About' href='#About' onClick={() => setIsOpen(false)}> Populares</a>
+                            <a className='#About' href='#popular' onClick={() => setIsOpen(false)}> Populares</a>
                         </li>
                         <li className='flex gap-5 h-[50px] text-[20px] items-center'>
                             <IoMdHome className='text-[30px]'/> 
-                            <a className='#job' href='#job' onClick={() => setIsOpen(false)}> Sujestão</a>
+                            <a className='#job' href='#banner' onClick={() => setIsOpen(false)}> Sujestão</a>
                         </li>
                         <li className='flex gap-5 h-[50px] text-[20px] items-center'>
                             <MdOutlineWork className='text-[30px]'/> 

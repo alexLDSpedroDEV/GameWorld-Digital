@@ -19,7 +19,7 @@
   
   position: relative;
   animation-name: animation;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .animationText1{
@@ -75,9 +75,8 @@
 
 
 @keyframes animation {
-  0%   {top: -600px;}
-  
-  100% {top:-250px;}
+  0%   {left: -400px;}
+  100% {left: 0px;}
 }
 
 

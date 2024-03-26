@@ -15,11 +15,11 @@ const config: Config = {
         
       },
       backgroundColor:{
-        "bglogo": "#DEAF65"
+        "bglogo": "#3CB6C0"
       },
       textColor: {
-        "textHome": "white",
-        "textlogo": "#DEAF65"
+        "textHome": "#3CB6C0",
+        "textlogo": "#3CB6C0"
       }
     },
   },

@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { GrLinkNext } from "react-icons/gr";
 import { IoArrowBackOutline } from "react-icons/io5";
-import Link from 'next/link'
+import { format } from 'url';
+import { useRouter } from "next/navigation";
 
 type Props = {
   activeImage: any;
@@ -13,7 +14,40 @@ type Props = {
   clickPrev: any;
 };
 
+
+interface Slider  {
+    
+  "id": number;
+  "src": string;
+  "title": string;
+  "link": string;
+  "desc": string;
+}
+
+
 const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
+
+  const router = useRouter();
+
+
+  const handleClick = (data: Slider) => {
+    console.log("placing your order");
+    const url = format({ // Converte o objeto de configuração para uma string de URL
+        pathname: "/venda",
+        query: {
+            id: data.id,
+            src: data.src,
+            title: data.title,
+            link: data.link,
+            desc: data.desc,
+        }
+    });
+    router.push(url); // Navega para a URL formatada
+};
+
+
+
+
   return (
     <div className=" text-white grid place-items-start xl:w-[40vw]  xl:w-[400px] px-7 h-[500px]  xl:h-[450px] w-full  relative ">
 
@@ -49,10 +83,9 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
           </motion.div>
           <div className="grid grid-cols-2 xl:max-w-[450px]">    
             <div className=" flex sm:gap-5 gap-1  text-center justify-start items-center text-[0.8rem] sm:text-[1rem] w-[100%]">  
-              <a href={elem.link} target="_blank" rel="noopener noreferrer" className="bg-[#3CB6C0] text-white uppercase px-4 py-2 rounded-md">
+              <button onClick={() => handleClick(elem)} className="bg-[#3CB6C0] text-white uppercase px-4 py-2 rounded-md">
                 purchase
-              </a>
-              
+              </button>              
             </div>
             <div className=" md:bottom-1  md:right-0 w-full flex justify-end sm:pr-5 pr-0 items-center gap-3">
               <div
