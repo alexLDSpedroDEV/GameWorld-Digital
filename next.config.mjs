@@ -17,6 +17,14 @@ const nextConfig = {
         'www.callofduty.com',
         'imgs.callofduty.com',
         'media-rockstargames-com.akamaized.net',
+        'upload.wikimedia.org',
+        'cdn.awsli.com.br',
+        'assetsio.gnwcdn.com',
+        'cdn.cdkeys.com',
+        'static.wikia.nocookie.net',
+        'cdn.kobo.com',
+        'cdn11.bigcommerce.com',
+        '',
       ]
     }
   };

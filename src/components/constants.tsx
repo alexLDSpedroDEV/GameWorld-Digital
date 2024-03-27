@@ -263,6 +263,139 @@ export const JogoBonitos = [
   },
 ];
 
+export const RpgGames = [
+  {
+    id: 0,
+    src: "https://upload.wikimedia.org/wikipedia/tr/thumb/5/53/TheWitcher3-WildHunt.KapakResmi.png/220px-TheWitcher3-WildHunt.KapakResmi.png",
+    title: "The Witcher 3: Wild Hunt",
+    link: "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
+    desc: " This RPG game by CD Projekt Red is renowned for its vast open-world landscapes, intricate details, and impressive graphics. The environments range from dense forests to bustling cities, each designed with great attention to detail.",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1710411171" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg?t=1710411171" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.600x338.jpg?t=1710411171" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.600x338.jpg?t=1710411171" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_d5b80eb63c12a6484f26796f3e34410651bba068.600x338.jpg?t=1710411171" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_b74d60ee215337d765e4d20c8ca6710ae2362cc2.600x338.jpg?t=1710411171" },
+    ]
+  },
+  {
+    id: 2,
+    src: "https://static.wikia.nocookie.net/elderscrolls/images/4/42/Skyrim_10th_Anniversary_Edition_Box_Art.jpg/revision/latest?cb=20210820004553",
+    title: "The Elder Scrolls V: Skyrim",
+    link: "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+    desc: "Venture into the breathtaking province of Skyrim, where dragons roam the skies and ancient prophecies foretell your fate. With limitless exploration, dynamic quests, and boundless modding possibilities, the path to greatness is yours to carve.",
+    value: 300,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/489830/header.jpg?t=1701807334" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/489830/ss_d64b646612ab1402bdda8e400672aa0dbcb352ea.600x338.jpg?t=1701807334" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/489830/ss_b6bb6f79278505b3f48567f08c21f7a0eb171c68.600x338.jpg?t=1701807334" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/489830/ss_921ccea650df936a0b14ebd5dd4ecc73c1d2a12d.600x338.jpg?t=1701807334" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/489830/ss_8c7ecd394afb581b9b2137a3de04433f78fdf4ea.600x338.jpg?t=1701807334" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/489830/ss_2ca72f4ecc42a18dd4bf056c539a9794c2b2493d.600x338.jpg?t=1701807334" },
+    ]
+  },
+  {
+    id: 3,
+    src: "https://cdn.cdkeys.com/700x700/media/catalog/product/i/t/it8107wh_400x400_2__3.jpg",
+    title: "Persona 5:",
+    link: "https://store.steampowered.com/app/1687950/Persona_5_Royal/",
+    desc: "Unleash your inner rebel in Tokyo's vibrant streets as you balance high school life with a secret life as a Phantom Thief. With its stylish aesthetic, captivating storyline, and addictive social simulation gameplay, Persona 5 is an unforgettable RPG experience.",
+    value: 400,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/1687950/header.jpg?t=1711014966" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_663171dc3afce8fe987e57e8659f91b69faa39bc.116x65.jpg?t=1711014966" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_a3258aba84ae2f2ff13a02a160f7495bfc152adb.116x65.jpg?t=1711014966" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_ddcc016b8e5c434ccbd1a89c0157ce73acf905ae.116x65.jpg?t=1711014966" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_38d09e40dd56df43a1bb083dc94e27cb1360b526.116x65.jpg?t=1711014966" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_cfa96c0c9a983689b48cc679ddc63cfe373c2b9a.116x65.jpg?t=1711014966" },
+    ]
+  },
+  {
+    id: 4,
+    src: "https://m.media-amazon.com/images/I/71bN7mqVC+L._AC_UF1000,1000_QL80_.jpg",
+    title: "Dark Souls III:",
+    link: "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
+    desc: "Prepare to die in the dark and atmospheric world of Lothric, where every step could be your last and every victory is hard-earned. With its challenging combat, intricate level design, and haunting lore, Dark Souls III will test your courage and determination like never before.",
+    value: 230,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.600x338.jpg?t=1700587390" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_1c0fa39091901496d77cf4cecfea4ffb056d6452.600x338.jpg?t=1700587390" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_1318a04ef11d87f38aebe6d47a96124f8f888ca8.600x338.jpg?t=1700587390" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_61524dee9ebf72d462638f21adbbbea4c93d791d.600x338.jpg?t=1700587390" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_fe1dc6761a9004aa39c2e6e62181593b7263edf9.600x338.jpg?t=1700587390" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_12c4d9a3c04d6d340ffea9335441eb2ad84e0028.600x338.jpg?t=1700587390" },
+    ]
+  },
+  {
+    id: 5,
+    src: "https://assetsio.gnwcdn.com/co1y5v.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
+    title: "Divinity: Original Sin 2:",
+    link: "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/",
+    desc: "Embark on a gripping adventure filled with tactical turn-based combat, deep character customization, and a rich narrative set in a world where your choices truly matter. Whether alone or with friends, Divinity: Original Sin 2 offers boundless opportunities for exploration and discovery.",
+    value: 100,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/435150/ss_b59e5889726cab2cf01a93d0c0d192d25928952a.600x338.jpg?t=1709728210" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/435150/ss_34a428cdd26113e8645b77331d9fc82fcc50a4a2.600x338.jpg?t=1709728210" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/435150/ss_d3badb07717f13ef3316928c513f8c4c7f7b50b1.600x338.jpg?t=1709728210" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/435150/ss_d51d3ccb39019124c45bf851bbe6a76e2461fab3.600x338.jpg?t=1709728210" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/435150/ss_efa99b837c22f45f690f27d3c656de31a4446075.600x338.jpg?t=1709728210" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/435150/ss_5ba36377bbb88fdde6c9e9ccddb581d3a952ea6a.600x338.jpg?t=1709728210" },
+    ]
+  },
+  {
+    id: 6,
+    src: "https://cdn.awsli.com.br/2500x2500/1124/1124488/produto/54368502/d49a90edb9.jpg",
+    title: "Dragon Age: Inquisition:",
+    link: "https://store.steampowered.com/app/1222690/Dragon_Age_Inquisition/",
+    desc: "Lead the Inquisition and forge your path in a world torn apart by chaos and strife. With its epic scope, compelling characters, and morally complex decisions, Dragon Age: Inquisition invites you to become a hero and shape the fate of Thedas.",
+    value: 400,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/1222690/header.jpg?t=1668811031" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/1222690/ss_4c90bdbb1c2567edec0778f2e8956d1a8ff1b4c3.600x338.jpg?t=1668811031" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/1222690/ss_a106df995b9051e24ebe5abdec168ea3495bfda4.116x65.jpg?t=1668811031" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/1222690/ss_e8e2d622313d983fc9eb3fd824a2e0401c247780.116x65.jpg?t=1668811031" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/1222690/ss_df4fb7825aef29e53e4b3e5dbb6c8dc6cd6e16d9.116x65.jpg?t=1668811031" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/1222690/ss_428d0d34e11bd8fad4f4f4fb0fd3245d632e6bb7.600x338.jpg?t=1668811031" },
+    ]
+  },
+  {
+    id: 7,
+    src: "https://upload.wikimedia.org/wikipedia/pt/0/05/MassEffect2_cover.PNG",
+    title: "Mass Effect 2:",
+    link: "https://store.steampowered.com/app/2362420/Mass_Effect_2_2010_Edition/",
+    desc: "Command a diverse crew of spacefaring adventurers in a cinematic sci-fi epic that blends thrilling combat, deep role-playing, and impactful decision-making. As Commander Shepard, your mission to save humanity from annihilation will take you to the farthest reaches of the galaxy and beyond.",
+    value:  159,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/2362420/ss_71ad1e34f9d1bd6cf8038dc6d0746d3ece8c2c0c.600x338.jpg?t=1708017054" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/2362420/ss_d8d162f5fd3e85d4aa8778281f6cabaae42eeb5a.600x338.jpg?t=1708017054" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/2362420/ss_b8e706efbbfa614f5ece0bbb1e33b24fa847ade0.600x338.jpg?t=1708017054" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/2362420/ss_b8e706efbbfa614f5ece0bbb1e33b24fa847ade0.600x338.jpg?t=1708017054" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/2362420/ss_c60f33a856de3a2e706517d7cd007a575c98778e.600x338.jpg?t=1708017054" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/2362420/ss_d5e3f4a60c00438ecd0d3ca01680eccff5635c0a.600x338.jpg?t=1708017054" },
+    ]
+  },
+  {
+    id: 8,
+    src: "https://cdn.kobo.com/book-images/93d319e0-13a6-40fb-b651-3cd254820ffa/1200/1200/False/nier-automata-short-story-long.jpg",
+    title: "NieR: Automata:",
+    link: "https://store.steampowered.com/app/524220/NieRAutomata/",
+    desc: "Step into a post-apocalyptic world where humanity's remnants fight against powerful machines for survival. In NieR: Automata, players control androids 2B, 9S, and A2 as they navigate a thought-provoking narrative filled with philosophical themes and existential questions. With its captivating story, fluid combat system, and stunning soundtrack, NieR: Automata offers a unique and unforgettable experience that challenges the boundaries of storytelling in video games.",
+    value: 100,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/524220/header.jpg?t=1696405478" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/524220/ss_d0314b4c134329a483b5e43af951f60274abc66b.600x338.jpg?t=1696405478" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/524220/ss_8b29f7e1ce9a8b9313dc3eb50dbe76a4cf94eef9.600x338.jpg?t=1696405478" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/524220/ss_2c265df38c3d2d393d74ee8e74d79bdafa16b143.600x338.jpg?t=1696405478" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/524220/ss_831e0e7c9d514393b711e9ed1d6796042521a80c.600x338.jpg?t=1696405478" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/524220/ss_02d2f3f2b7b7add8e6ad50d6b9325d05fa1d7bc7.600x338.jpg?t=1696405478" },
+    ]
+  },
+  
+];
+
+
 export const JogosTiro = [
   {
     id: 0,
@@ -300,7 +433,7 @@ export const JogosTiro = [
 
   {
     id: 2,
-    src: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6PFe2GD07EXl7dt8oNtlzz/a95087f255ad43170e56335cebd19a50/R6S_Y9S1_Battle_Pass_Keyart.jpg",
+    src: "https://cdn11.bigcommerce.com/s-phd6db0nid/images/stencil/1280x1280/products/157/499/Tom-Clancys-Rainbow-Six-Siege-Deluxe-Xbox-One__23721.1602092262.jpg?c=1",
     title: "Rainbow Six Siege",
     link: "https://www.ubisoft.com/pt-br/game/rainbow-six/siege",
     desc: "Rainbow Six Siege - Tom Clancy's Rainbow Six Siege offers a tactical and team-oriented approach to first-person shooters, emphasizing strategy and cooperation above all else. Set in a world of counter-terrorism operations, Siege pits attackers against defenders in intense, close-quarters combat scenarios. With its destructible environments, operator-based gameplay, and constant updates, Rainbow Six Siege continues to evolve and captivate players with its depth and complexity.",

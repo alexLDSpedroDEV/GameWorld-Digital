@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Homes from "./home/page";
 import Footer from "./footer/page";
-import Populares from "./populares/page";
 import MaisVendidos from "./maisVendidos/page";
 import Banner from "./banner/page";
 import Descontos from "./descontos/page";
-import { JogosTiro } from "@/components/constants";
+import { JogosTiro, RpgGames,images } from "@/components/constants";
 
 import Link from "next/link";
 
@@ -14,11 +13,11 @@ export default function Home() {
     <main className="overflow-x-hidden bg-black w-[100vw]">
       <Homes />
       <MaisVendidos sliders={JogosTiro} title="Most played games"/>
-      <MaisVendidos sliders={JogosTiro} title="Shoot games"/>
+      <MaisVendidos sliders={RpgGames} title="Rpg Games"/>
       <Banner />
-      <MaisVendidos sliders={JogosTiro} title="cute games"/>
+      <MaisVendidos sliders={JogosTiro} title="Shoot Games"/>
       <Descontos />
-      <MaisVendidos sliders={JogosTiro} title="Popular"/>
+      <MaisVendidos sliders={images} title="Popular"/>
       <Footer />
     </main>
   );
