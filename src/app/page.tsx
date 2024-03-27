@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className=" overflow-x-hidden bg-black w-[100vw]">
       <Homes />
-      <Populares title="Popular"/>
+      {/* <Populares title="Popular"/> */}
       <MaisVendidos title="Best sellers"/>
       <Banner />
       <MaisVendidos title="Popular"/>
