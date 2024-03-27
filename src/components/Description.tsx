@@ -1,49 +1,77 @@
 import React from "react";
 import { images } from "./constants";
-
+import { stringify as formatUrl } from 'querystring';
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { GrLinkNext } from "react-icons/gr";
 import { IoArrowBackOutline } from "react-icons/io5";
-import { format } from 'url';
 import { useRouter } from "next/navigation";
 
 type Props = {
   activeImage: any;
   clickNext: any;
   clickPrev: any;
+  sliders: Slide[];
 };
 
 
-interface Slider  {
-    
+interface Slider {
+
   "id": number;
   "src": string;
   "title": string;
   "link": string;
   "desc": string;
+  "value": number;
+  "arrayLinks": any[];
+}
+
+interface Slide {
+  id: number;
+  src: string;
+  title: string;
+  link: string;
+  desc: string;
+  value: any;
+  arrayLinks: ArrayLinks[];
+}
+
+interface ArrayLinks {
+  id: string,
+  link: string 
+}
+
+interface CarrocelProps {
+  
+  sliders: Slide[]; 
 }
 
 
-const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
+
+const Description = ({ activeImage, clickNext, clickPrev, sliders }: Props) => {
 
   const router = useRouter();
 
+    // Dentro da função handleClick
+    const handleClick = (data: Slider) => {
+        console.log(data.arrayLinks);
 
-  const handleClick = (data: Slider) => {
-    console.log("placing your order");
-    const url = format({ // Converte o objeto de configuração para uma string de URL
-        pathname: "/venda",
-        query: {
+        // Mapeia os links da array para uma nova array contendo apenas os links
+        const arrayLinkshgg = data.arrayLinks.map(linkObj => linkObj.link);
+
+        const queryParams = {
             id: data.id,
             src: data.src,
             title: data.title,
             link: data.link,
             desc: data.desc,
-        }
-    });
-    router.push(url); // Navega para a URL formatada
-};
+            value: data.value,
+            // Converte a array de links para uma string separada por vírgulas
+            arrayLinks: arrayLinkshgg.join(',')
+        };
+
+        const url = `/venda?${formatUrl(queryParams)}`;
+        router.push(url);
+    };
 
 
 
@@ -51,7 +79,7 @@ const Description = ({ activeImage, clickNext, clickPrev }: Props) => {
   return (
     <div className=" text-white grid place-items-start xl:w-[40vw]  xl:w-[400px] px-7 h-[500px]  xl:h-[450px] w-full  relative ">
 
-      {images.map((elem, idx) => (
+      {sliders && sliders.map((elem, idx) => (
         <div
           key={idx}
           className={`${idx === activeImage

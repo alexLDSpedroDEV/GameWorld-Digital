@@ -11,7 +11,12 @@ const nextConfig = {
         'image.api.playstation.com',
         'm.media-amazon.com',
         'images.contentstack.io',
-        'playvalorant.com'
+        'playvalorant.com',
+        'gmedia.playstation.com',
+        'www.dragonsdogma.com',
+        'www.callofduty.com',
+        'imgs.callofduty.com',
+        'media-rockstargames-com.akamaized.net',
       ]
     }
   };

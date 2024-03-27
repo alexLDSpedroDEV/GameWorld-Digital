@@ -5,20 +5,21 @@ import Populares from "./populares/page";
 import MaisVendidos from "./maisVendidos/page";
 import Banner from "./banner/page";
 import Descontos from "./descontos/page";
+import { JogosTiro } from "@/components/constants";
 
 import Link from "next/link";
+
 export default function Home() {
   return (
-    <main className=" overflow-x-hidden bg-black w-[100vw]">
+    <main className="overflow-x-hidden bg-black w-[100vw]">
       <Homes />
-      {/* <Populares title="Popular"/> */}
-      <MaisVendidos title="Best sellers"/>
+      <MaisVendidos sliders={JogosTiro} title="Most played games"/>
+      <MaisVendidos sliders={JogosTiro} title="Shoot games"/>
       <Banner />
-      <MaisVendidos title="Popular"/>
+      <MaisVendidos sliders={JogosTiro} title="cute games"/>
       <Descontos />
-      <MaisVendidos title="Popular"/>
+      <MaisVendidos sliders={JogosTiro} title="Popular"/>
       <Footer />
     </main>
   );
 }
-  

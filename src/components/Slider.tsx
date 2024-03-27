@@ -3,22 +3,43 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-import { images } from "./constants";
 import Description from "./Description";
 
-const Slider = () => {
+interface Slide {
+  id: number;
+  src: string;
+  title: string;
+  link: string;
+  desc: string;
+  value: any;
+  arrayLinks: ArrayLinks[];
+}
+
+interface ArrayLinks {
+  id: string,
+  link: string 
+}
+
+interface CarrocelProps {
+  sliders: Slide[];
+  
+}
+
+
+
+const Slider: React.FC<CarrocelProps> = ({ sliders }) =>  {
   const [activeImage, setActiveImage] = useState(0);
 
   const clickNext = () => {
-    activeImage === images.length - 1
-      ? setActiveImage(0)
-      : setActiveImage(activeImage + 1);
+    if (sliders && sliders.length) {
+      setActiveImage(activeImage === sliders.length - 1 ? 0 : activeImage + 1);
+    }
   };
   const clickPrev = () => {
-    activeImage === 0
-      ? setActiveImage(images.length - 1)
-      : setActiveImage(activeImage - 1);
-  };
+    if (sliders && sliders.length) {
+      activeImage === 0 ? setActiveImage(sliders.length - 1) : setActiveImage(activeImage - 1);
+    }
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -34,7 +55,7 @@ const Slider = () => {
       <div
         className={`w-full xl:pr-[100px]  xl:w-[50vw] min-h-[auto] xl:min-h-[300px] flex justify-center lg:w-[80vw] items-start xl:items-center gap-4 transition-transform ease-in-out duration-500  xl:p-0`}
       >
-        {images.map((elem, idx) => (
+        {sliders && sliders.map((elem, idx) => (
           <div
             key={idx}
             className={`${
@@ -54,6 +75,7 @@ const Slider = () => {
         ))}
       </div>
       <Description
+        sliders={ sliders }
         activeImage={activeImage}
         clickNext={clickNext}
         clickPrev={clickPrev}
