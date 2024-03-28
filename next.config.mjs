@@ -25,7 +25,7 @@ const nextConfig = {
         'cdn.kobo.com',
         'cdn11.bigcommerce.com',
         'store.ubisoft.com',
-        '',
+        'cdn1.epicgames.com',
         '',
         '',
         '',

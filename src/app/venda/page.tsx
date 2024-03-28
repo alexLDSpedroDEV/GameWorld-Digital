@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import NavBar from '@/components/navBar';
 import Image from 'next/image';
 import { BiChevronLeft, BiChevronRight } from 'react-icons/bi';
@@ -43,24 +43,33 @@ const Page: React.FC<AboutPageProps> = ({ searchParams }) => {
     }
   })
 
+  const router = useRouter();
+
+    // Dentro da função handleClick
+    const handleClick = () => {
+       
+        router.push('/');
+    };
+
 
 
   return (
     <section className='w-screen h-auto bg-black min-h-[100vh]'>
+      <button onClick={() => handleClick()} className=' z-40 fixed bg-[#3CB6C0] text-xl text-white rounded-full left-0 mt-24 m-8 p-5'><BiChevronLeft/></button>
       <NavBar title="React" />
       <div className='grid grid-cols-1 m-auto pb-6 min-h-[90vh] grid justify-center '>
-        <div className='text-white  order-2 md:py-10 px-4 md:px-0 md:w-[90vw] md:m-auto max-w-[1100px] '>
+        <div className='text-white pt-20 order-2 md:py-10 px-4 md:px-0 md:w-[90vw] md:m-auto max-w-[1100px] '>
           <h1 className='text-[2em] md:text-[3em] py-5 font-semibold'>{searchParams.title}</h1>
-          <p className='text-white/50 text-center md:text-[1em] xl:pb-10'>{searchParams.desc}</p>
+          <p className='text-white/50 text-center md:text-[1em] xl:pr-36 text-start xl:pb-10'>{searchParams.desc}</p>
           <div className='flex w-full justify-around items-center mt-5'>
-            <p className='my-10'> {searchParams.value !== "Free" ? searchParams.value + "$" : searchParams.value}</p>
-            <a href={searchParams.link} target="_blank" rel="noopener noreferrer" className=' bg-[#3CB6C0] text-white uppercase px-10 py-3 rounded-md '>Play now</a>
+            
+            <a href={searchParams.link} target="_blank" rel="noopener noreferrer" className=' bg-[#3CB6C0] text-white uppercase w-full text-center px-10 py-3 rounded-md '>Play now</a>
           </div>
 
         </div>
 
         {/* carrocel */}
-        <div className='relative grid items-center h-[450px] xl:h-[600px]  w-screen'>
+        <div className='relative scrollHidden grid overflow-scroll items-center h-[450px] xl:h-[600px]  w-screen'>
           <div style={{ transform: `translateX(-${curr * 100}vw)` }} className='order-1 flex  transition-transform ease-out duration-500'>
 
             {links.map((link, index) => (
@@ -81,9 +90,9 @@ const Page: React.FC<AboutPageProps> = ({ searchParams }) => {
 
       </div>
       <div className='mt-20'>
-        <div className='text-center  text-white'>
-          <h1 className='text-4xl'>Descubra o Mundo dos Jogos: Uma Aventura Inesquecível</h1>
-          <p>Explore os mundos incríveis e mergulhe em aventuras emocionantes! Venha curtir esses maravilhosos jogos e descubra paisagens deslumbrantes, desafios épicos e histórias cativantes que vão te prender do início ao fim. Prepare-se para uma experiência inesquecível enquanto você embarca em jornadas emocionantes e desfruta de gráficos deslumbrantes e jogabilidade envolvente. Não perca mais tempo, entre nessa aventura e descubra o que o mundo dos jogos tem a oferecer!</p>
+        <div className='text-center w-[95vw] m-auto max-w-[1250px] text-white'>
+          <h1 className='text-[3em] py-9 text-[#3CB6C0] font-semibold'>Discover the Gaming World: An Unforgettable Adventure</h1>
+          <p className=' py-7 mb-[60px] text-start lg:text-center xl:px-24'>Embark on Epic Adventures: Explore Incredible Worlds and Dive into Thrilling Experiences! Come and Enjoy these Wonderful Games, Uncover Breathtaking Landscapes, Epic Challenges, and Captivating Stories that will Keep You Engaged from Start to Finish. Get Ready for an Unforgettable Experience as You Embark on Exciting Journeys and Delight in Stunning Graphics and Immersive Gameplay. Dont Waste Any More Time, Dive into this Adventure and Discover What the Gaming World has to Offer!</p>
         </div>
         <div className=' w-screen h-auto '>
           <div className='h-[auto] grid justify-center md:hidden '>

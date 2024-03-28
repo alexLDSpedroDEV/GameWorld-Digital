@@ -12,6 +12,7 @@ import { MdOutlineWork } from "react-icons/md";
 import { HiOutlineBellAlert } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
 import { FaShoppingCart } from "react-icons/fa";
+import { useRouter } from 'next/navigation';
 
 
 interface MyProps {
@@ -21,6 +22,14 @@ interface MyProps {
 const NavBar = (props: MyProps) => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
+    const router = useRouter();
+
+    // Dentro da função handleClick
+    const handleClick = () => {
+       
+        router.push('/');
+    };
+
     return (
         <nav className='z-1 grid grid-row-2 justify-between w-screen sm:min-h-[100px] items-center'>
             
@@ -28,7 +37,7 @@ const NavBar = (props: MyProps) => {
            
             <div className=' grid-cols-2 hidden md:grid justify-center w-screen md:min-h-[100px]  lg:text-[0.9rem] xl:text-[1.1rem] md:text-[0.7rem] sm:text-[0.7rem]'>
                 <div className='flex justify-start items-center pl-5 gap-5 text-gray-500 md:text-[1rem] cursor-pointer' >
-                    <Image src={logo} width={100} height={100} alt='logo do site'></Image>
+                    <button onClick={() => handleClick()}><Image src={logo} width={100} height={100} alt='logo do site'></Image></button>
                     <a className=' hover:text-[#3CB6C0]'> Home </a>
                     <a className=' hover:text-[#3CB6C0]'> Populares </a>
                     <a className=' hover:text-[#3CB6C0]'> Sujestão </a>
