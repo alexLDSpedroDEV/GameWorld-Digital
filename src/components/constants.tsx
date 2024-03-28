@@ -40,11 +40,16 @@ export const images = [
     value: 200,
     arrayLinks: [
       { id: "0", link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4yoDrJ9GYaKPSupfnp6Ahn/9b00c554ea83692b9b06e4c807afb6cc/skull-and-bones-s1-content-trailer-thumb.jpg" },
-      { id: "1", link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1q7uyO3spK6WTd2I5DAcY9/5b9ad8fd9b99463d2b33fdd0cff146c8/1.3_Patch_Art_-_Thumbnail.jpg" },
-      { id: '2', link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2llCkb9KuRMHG1vA7ZudvJ/82bd4ac3b88caf99b23c09d808affafe/SAB_PatchNotes_Thumbnail960x540.jpg" },
-      { id: '3', link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/10rVdAfkNnX9CGlJKyPtUV/bc2dbd04a21d0eff3ccd86cf6d9c499e/LTY_Combat_FINAL_3840.jpg" },
-      { id: "4", link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/648wjoJa0eqVXgqf4npHgy/8c6d65cbf9ac77523e021c0ad346eef7/hell-paradise.jpg" },
-      { id: '5', link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/o6SdrTPEiEs9dvoXSGocm/211825d76d024dcaba1905cced52c65c/LTY_GhostShip_FINAL.jpg" },
+      { id: '1', link: "https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dwc3e2378f/SAB/Skull_Immersive_01_DESK.jpg" },
+      { id: '3', link: "https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dw6ced0cc5/SAB/Skull_Immersive_01_MOB.jpg" },      
+      { id: "4", link: "https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dwf92dab4e/SAB/Skull_Immersive_02_MOB.jpg" },
+      { id: '5', link: "https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dw1e577cff/SAB/Skull_Immersive_02_DESK.jpg" },
+      { id: "6", link: "https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dwb594af47/SAB/Skull_Immersive_03_MOB.jpg" },
+      { id: '7', link: "https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dw420de426/SAB/Skull_Immersive_03_DESK.jpg" },
+      { id: "8", link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1q7uyO3spK6WTd2I5DAcY9/5b9ad8fd9b99463d2b33fdd0cff146c8/1.3_Patch_Art_-_Thumbnail.jpg" },
+      { id: '9', link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/10rVdAfkNnX9CGlJKyPtUV/bc2dbd04a21d0eff3ccd86cf6d9c499e/LTY_Combat_FINAL_3840.jpg" },
+      { id: "10", link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/648wjoJa0eqVXgqf4npHgy/8c6d65cbf9ac77523e021c0ad346eef7/hell-paradise.jpg" },
+      { id: '11', link: "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/o6SdrTPEiEs9dvoXSGocm/211825d76d024dcaba1905cced52c65c/LTY_GhostShip_FINAL.jpg" },
     ]
 
   },

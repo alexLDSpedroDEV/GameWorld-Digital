@@ -24,6 +24,11 @@ const nextConfig = {
         'static.wikia.nocookie.net',
         'cdn.kobo.com',
         'cdn11.bigcommerce.com',
+        'store.ubisoft.com',
+        '',
+        '',
+        '',
+        '',
         '',
       ]
     }
