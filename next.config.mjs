@@ -26,10 +26,10 @@ const nextConfig = {
         'cdn11.bigcommerce.com',
         'store.ubisoft.com',
         'cdn1.epicgames.com',
-        '',
-        '',
-        '',
-        '',
+        'store-images.s-microsoft.com',
+        'storegamesargentina.com',
+        'static0.srcdn.com',
+        'assetsio.gnwcdn.com',
       ]
     }
   };

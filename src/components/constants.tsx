@@ -514,3 +514,162 @@ export const JogosTiro = [
   },
 
 ]
+
+export const SurvavelGames = [
+  {
+    id: 0,
+    src: "https://assetsio.gnwcdn.com/co6mrg.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
+    title: "Rust",
+    link: "https://store.steampowered.com/app/252490/Rust/",
+    desc: "players find themselves stranded on an unforgiving island, where they must scavenge for resources, build shelters, and form alliances to survive. But watch your back – in this ruthless multiplayer sandbox, danger lurks around every corner",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.600x338.jpg?t=1701938429" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.600x338.jpg?t=1701938429" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_d0fdacaeef5a28a7cee525fd73376adfe083c964.600x338.jpg?t=1701938429" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_827f1bb38361eb3f7de91cff9be5b7176a05a9ac.600x338.jpg?t=1701938429" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_bbf6c96e490326ec877ae548cb148e53516b5f83.600x338.jpg?t=1701938429" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_9d2ad1cd00376605d6f9a778eb7bd1cddfd68ee1.600x338.jpg?t=1701938429" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_aaa718a3cb0696a816456283526842c4f2d6b1bc.600x338.jpg?t=1701938429" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_651097c65458ae555b42c42dd9667d7174397bdf.600x338.jpg?t=1701938429" },
+
+    ]
+
+  },
+  {
+    id: 1,
+    src: "https://upload.wikimedia.org/wikipedia/en/4/46/TheForest_Game.jpg",
+    title: "The Forest",
+    link: "https://store.steampowered.com/app/242760/The_Forest/",
+    desc: "Crashed on a mysterious island, players in The Forest must navigate dense forests, scavenge for supplies, and defend against hostile mutants. With a focus on crafting and exploration, every decision you make could mean the difference between life and death.",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1699381053" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_53c615d49c4777144ed7359e4bf7c9eb6838cc8e.600x338.jpg?t=1699381053" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_53c615d49c4777144ed7359e4bf7c9eb6838cc8e.600x338.jpg?t=1699381053" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_d03a261fecab226a0ecac5746225c2a50d65c670.600x338.jpg?t=1699381053" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_d77d402c78451a04b5c370e81ff7767c4008343c.600x338.jpg?t=1699381053" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_7598551a5bfbf69ae1161c8ebee8e000868add24.600x338.jpg?t=1699381053" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/242760/ss_e50b7c8bc2f4720859ba13aa32703661192f4d62.600x338.jpg?t=1699381053" },
+
+    ]
+
+  },
+  {
+    id: 2,
+    src: "https://static0.srcdn.com/wordpress/wp-content/uploads/2023/11/ark-survival-ascended-game-poster.jpg",
+    title: "ARK: Survival Evolved",
+    link: "https://store.steampowered.com/app/346110/ARK_Survival_Evolved/",
+    desc: "ARK: Survival Evolved thrusts players into a prehistoric world filled with dinosaurs and other ancient creatures. Survivors must tame these beasts, build shelters, and uncover the mysteries of the island while battling rival tribes and the elements.",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_2fd997a2f7151cb2187043a1f41589cc6a9ebf3a.600x338.jpg?t=1709879597" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_01cbef83fe28d64ee5a3d39a86043fb1e49abd31.600x338.jpg?t=1709879597" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_164a92a53f9bcbb728b391fc0719f9769c2e1249.600x338.jpg?t=1709879597" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_ffe9f0e2e23892f3bb6188e5a3eed0f60a08baf4.600x338.jpg?t=1709879597" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_cada382a940c062a1a5244db8da1326de55ddeae.600x338.jpg?t=1709879597" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_ffd48da603fa700d10738ae4ee44ce2b9113cb64.600x338.jpg?t=1709879597" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_7f9c3429b86d65cd63beed4597a23148d7cadf08.600x338.jpg?t=1709879597" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_fb806797fb216cad733dc70a3fc732134442b1e6.600x338.jpg?t=1709879597" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/346110/ss_5d60317fff984fcd8d8a7bee9c51f8e0729f7e8f.600x338.jpg?t=1709879597" },
+
+    ]
+
+  },
+  {
+    id: 3,
+    src: "https://storegamesargentina.com/wp-content/uploads/2023/02/subnautica.jpg",
+    title: "Subnautica",
+    link: "https://store.steampowered.com/app/264710/Subnautica/",
+    desc: "Dive into the depths of an alien ocean in Subnautica, where players must explore, gather resources, and construct underwater bases to survive. But beware of the dangers lurking beneath the waves, from deadly predators to environmental hazards.",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/header.jpg?t=1700522118" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/ss_970a13f246e33e0df26d93baf9f8e975732adb4b.600x338.jpg?t=1700522118" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/ss_5f2f2ea498cdc632cbffd6cf37c1a09670eb3272.600x338.jpg?t=1700522118" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/ss_cebc378d2f7bc78978c21db4e3c5e12ccd067349.600x338.jpg?t=1700522118" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/ss_0ace7f8b4350b8fbdd16345a76bc30545256e918.600x338.jpg?t=1700522118" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/ss_f0eeabe108c2bc2b3e370b9828fb280035b50db2.600x338.jpg?t=1700522118" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/ss_b28404f3d108cc15aebbb2c3d7cb17e587225662.600x338.jpg?t=1700522118" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/264710/ss_883a98ad56021ce409219e1b749818866b6115cd.600x338.jpg?t=1700522118" },
+    ]
+
+  },
+  {
+    id: 4,
+    src: "https://store-images.s-microsoft.com/image/apps.23097.69886306496288395.9ec42146-6037-4440-b5c7-3a44e5213cc3.0e09163e-a6c4-40f6-9fe1-24a6b4685c64",
+    title: "DayZ",
+    link: "https://store.steampowered.com/app/221100/DayZ/",
+    desc: "Set in a post-Soviet landscape overrun by zombies, DayZ challenges players to scavenge for supplies, avoid infected hordes, and contend with other survivors in a persistent online world. Trust no one in this gritty struggle for survival.",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1703605389" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/ss_7f488d8e49682a8d1643a795fc9047cbbd2dcc9c.600x338.jpg?t=1703605389" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/ss_0de6d2e7f3b5348d69bb09d60624c78e13f0c8d7.600x338.jpg?t=1703605389" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/ss_84b557abccd29273cf9313980b4c9f63a12dabdf.600x338.jpg?t=1703605389" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/ss_7892d0526421d31a3d1eebb6cf919118fcfb2ca5.600x338.jpg?t=1703605389" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/ss_38bc8749f418717a6419a5eaec19cf26a7faae27.600x338.jpg?t=1703605389" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/ss_de716ef45826665559b5fef34391d5ef0e00452a.600x338.jpg?t=1703605389" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/221100/ss_447d71a5e1fcf99330d490625301a608f1b2bc48.600x338.jpg?t=1703605389" },
+    ]
+
+  },
+  {
+    id: 5,
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/Don%27t_Starve_cover.jpg",
+    title: "Don't Starve",
+    link: "https://store.steampowered.com/app/219740/Dont_Starve/",
+    desc: "Don't Starve throws players into a dark and whimsical world filled with bizarre creatures and unforgiving environments. With a focus on exploration and resource management, players must stave off hunger, insanity, and supernatural threats to survive.",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/header.jpg?t=1675969205" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/ss_0167fbdf9d30407734baf3ab3b08213945738166.600x338.jpg?t=1675969205" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/ss_38d4d1b21050fc4b3978fcf65c909260d3673fb7.600x338.jpg?t=1675969205" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/ss_1d3d9b7d9d752666feb9853215c118104816eee2.600x338.jpg?t=1675969205" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/ss_4efdf13bfa4586cadacf6db01cca504cba51f3cf.600x338.jpg?t=1675969205" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/ss_2f9a5a4499c1b564d089725ec7d9471f5cc3f49e.600x338.jpg?t=1675969205" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/ss_6f186249858470e199827df5fee95d48a020a89e.600x338.jpg?t=1675969205" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/219740/ss_09bb6bdce4fa085c2c4a9a8f48ea52d3051b44bc.600x338.jpg?t=1675969205" },
+    ]
+
+  },
+  {
+    id: 6,
+    src: "https://image.api.playstation.com/cdn/UP2026/CUSA03446_00/BvwJc9XSQVSpDit7DCk7tkTtdE6RYozh.png",
+    title: "7 Days to Die",
+    link: "https://store.steampowered.com/app/251570/7_Days_to_Die/",
+    desc: "",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/header.jpg?t=1702072288" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/ss_66ab2c612cb28b4b61974bcb3380a69274c4c127.600x338.jpg?t=1702072288" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/ss_573fbb7a06c0b269de2c1e562b0129412f42792f.600x338.jpg?t=1702072288" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/ss_cb37f3a4226d16fbb0e4681605ef592acba3077f.600x338.jpg?t=1702072288" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/ss_fab3d39d4fdcab63df04a5e7bb69b5c0f81a0896.600x338.jpg?t=1702072288" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/ss_ef75da0e35775b9281954f7fc845c6913961e21e.600x338.jpg?t=1702072288" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/ss_ef75da0e35775b9281954f7fc845c6913961e21e.600x338.jpg?t=1702072288" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/251570/ss_5c5d4d47eac83709f00863447cef7e2a0a7b4dba.600x338.jpg?t=1702072288" },
+    ]
+
+  },
+
+  {
+    id: 7,
+    src: "https://store-images.s-microsoft.com/image/apps.24352.13597521366015513.daac361f-a790-4972-8c98-3b208a11a062.e7dd017b-c6e4-47eb-96c6-d4676663bfa3?q=90&w=177&h=265",
+    title: "The Long Dark",
+    link: "https://store.steampowered.com/app/305620/The_Long_Dark/",
+    desc: "Stranded in the frozen wilderness of Canada after a geomagnetic disaster, players in The Long Dark must brave harsh weather conditions, wildlife, and dwindling resources to stay alive. With no zombies or mutants to fight, survival depends solely on your ability to adapt and endure.",
+    value: 200,
+    arrayLinks: [
+      { id: "0", link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/header.jpg?t=1691688878" },
+      { id: "1", link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/ss_718af4cf5640b3227a530adf6d5f6d9e3a46703b.600x338.jpg?t=1691688878" },
+      { id: '2', link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/ss_05c7f5d1b2ec2b2a1cf4ca2aa1ff609c7542f6b5.600x338.jpg?t=1691688878" },
+      { id: '3', link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/ss_01b14b69d0d3fe417280f710adcc1c01cd69cf9e.600x338.jpg?t=1691688878" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/ss_aa8de90a92dca3f6365ad5f18216393047f5b2d8.600x338.jpg?t=1691688878" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/ss_64ec8f3f82cfc3c3ce09e85af3cc070aaba14323.600x338.jpg?t=1691688878" },
+      { id: "4", link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/ss_6e8604e40c58acd67071bb2e1a13f22a1f9fd288.600x338.jpg?t=1691688878" },
+      { id: '5', link: "https://cdn.akamai.steamstatic.com/steam/apps/305620/ss_abbb4b6bc5a0eaad930db17ebb6ac8c14d8bd726.600x338.jpg?t=1691688878" },
+    ]
+
+  },
+]

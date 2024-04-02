@@ -4,7 +4,7 @@ import Footer from "./footer/page";
 import MaisVendidos from "./maisVendidos/page";
 import Banner from "./banner/page";
 import Descontos from "./descontos/page";
-import { JogosTiro, RpgGames,images } from "@/components/constants";
+import { JogosTiro, RpgGames, images, SurvavelGames} from "@/components/constants";
 
 import Link from "next/link";
 
@@ -17,7 +17,8 @@ export default function Home() {
       <Banner />
       <MaisVendidos sliders={JogosTiro} title="Shoot Games"/>
       <Descontos />
-      <MaisVendidos sliders={images} title="Popular"/>
+      <MaisVendidos sliders={SurvavelGames} title="Survavel Games"/>
+      <MaisVendidos sliders={SurvavelGames} title="Survavel Games"/>
       <Footer />
     </main>
   );

@@ -48,7 +48,7 @@ const Slider: React.FC<CarrocelProps> = ({ sliders }) =>  {
     return () => {
       clearTimeout(timer);
     };
-  }, [activeImage]);
+  },);
 
   useEffect(() => {
     const getWidth = () => {
@@ -71,7 +71,7 @@ const Slider: React.FC<CarrocelProps> = ({ sliders }) =>  {
    
     setLinks(linksArray)
 
-  }, []);
+  }, [sliders]);
 
   return (
     <main className="order-2 min-h-[100vh] md:h-[auto] md:order-1 grid place-items-center xl:grid-cols-2 xl:grid-cols-[55vw,30vw] grid-cols-1 w-full mx-auto xl:min-h-[400px] xl:my-20 md:max-w-[80vw] xl:max-w-[90vw] xl:items-start xl:gap-10 xl:h-[400px] overflow-hidden border border-black shadow-lg">
