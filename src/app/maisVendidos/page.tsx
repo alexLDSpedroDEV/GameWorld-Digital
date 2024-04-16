@@ -21,13 +21,14 @@ interface ArrayLinks {
   link: string 
 }
 
-interface CarrocelProps {
+type CarouselProps = {
   sliders: Slide[];
   title: string;
-}
+};
 
-const MaisVendidos: React.FC<CarrocelProps> = ({ sliders, title }) => { 
 
+
+const MaisVendidos: React.FC<CarouselProps> = ({ sliders, title }) => {
   const router = useRouter();
 
   const handleClick = () => { 
@@ -35,8 +36,9 @@ const MaisVendidos: React.FC<CarrocelProps> = ({ sliders, title }) => {
     router.push("/banner/page"); 
   }
 
+
   return (
-    <section className=" bg-black grid  justify-center mt-4 font m-auto w-screen h-[600px]">
+    <section className="bg-black grid justify-center mt-4 font m-auto w-screen h-[600px]">
       <div className="xl:max-w-[1400px] w-auto overflow-hidden">
         <div className="text-[2em] mb-10 pl-5 font-bold text-white ">{title}</div>
         <CarrocelComponts sliders={sliders}/>
@@ -46,4 +48,3 @@ const MaisVendidos: React.FC<CarrocelProps> = ({ sliders, title }) => {
 };
 
 export default MaisVendidos;
-
