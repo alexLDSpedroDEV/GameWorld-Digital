@@ -36,8 +36,8 @@ const MaisVendidos: React.FC<CarrocelProps> = ({ sliders, title }) => {
   }
 
   return (
-    <section className=" bg-black grid justify-center mt-4 m-auto w-screen h-[600px]">
-      <div className="xl:max-w-[1200px] w-auto overflow-hidden">
+    <section className=" bg-black grid  justify-center mt-4 font m-auto w-screen h-[600px]">
+      <div className="xl:max-w-[1400px] w-auto overflow-hidden">
         <div className="text-[2em] mb-10 pl-5 font-bold text-white ">{title}</div>
         <CarrocelComponts sliders={sliders}/>
       </div>

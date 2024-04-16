@@ -70,7 +70,7 @@ const CarrosselComponent: React.FC<CarrocelProps> = ({ sliders }) => {
 
     return (
 
-        <div className="  relative grid items-center px-5 h-[450px] w-screen">
+        <div className="  relative grid  items-center px-5 h-[450px] w-screen">
             <div className="flex gap-7  rounded-md transition-transform ease-out duration-500 " style={{ transform: `translateX(-${curr * 230}px)` }}>
                 {sliders && sliders.map((s, key) => (
                     <div key={key} className="text-white h-[450px] grid max-w-[222px]">
@@ -78,14 +78,14 @@ const CarrosselComponent: React.FC<CarrocelProps> = ({ sliders }) => {
                         <h1 className="text-[1em] pt-4 font-serif">{s.title}</h1>
                         <div className="grid justify-around items-center grid-cols-2">
                             <p>${s.value}</p>
-                            <div onClick={() => handleClick(s)} className="bg-[#3CB6C0] cursor-pointer text-white uppercase text-center py-2 rounded-md">visualizar</div>
+                            <div onClick={() => handleClick(s)} className="bg-[#3CB6C0] cursor-pointer text-white uppercase text-center py-2 text-[12px] rounded-md">To View</div>
                         </div>
 
                     </div>
                 ))}
             </div>
 
-            <div className="absolute inset-0 w-auto h-[150px] xl:w-[1200px] flex items-center top-[85px] justify-between   px-4 ">
+            <div className="absolute inset-0 w-auto h-[150px] xl:w-[1400px] flex items-center top-[85px] justify-between   px-6 ">
                 <button onClick={prev} className=" rounded-full shadow xl:w-50px xl:h-50px bg-black/90 text-white">
                     <BiChevronLeft size={40} />
                 </button>

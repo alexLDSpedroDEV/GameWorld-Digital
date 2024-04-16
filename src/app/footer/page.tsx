@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <footer className=" grid justify-center w-screen bg-black">
+        <footer className=" grid justify-center items-center w-screen bg-black">
             <div className="w-screen grid grid gap-7 max-w-[1200px] justify-center items-start h-[auto] pt-20 bg-black ">
                 <div className="grid grid-cols-2 xl:w-[1200px] w-full justify-center items-center m-auto">
                         <div className="grid justify-center">
@@ -15,8 +15,8 @@ const Footer = () => {
                         </div>
                         <div className="w-auto h-[1px] bg-bglogo"></div>
                     </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2  justify-between xl:m-auto items-center xl:w-[1200px]">
-                    <div className=" grid grid-cols-2 grid-rows-1  min-h-[200px] py-14 px-4 h-full text-white w-full ">
+                <div className="grid grid-cols-1  xl:m-auto items-center xl:w-[1200px]">
+                    <div className=" grid grid-cols-2 text-center grid-rows-1 m-auto min-h-[200px] py-14 px-4 h-full text-white w-full ">
                         <div className="grid grid-cols-1 w-auto gap-3">
                             <h1 className="uppercase text-textlogo text-[18px] font-bold">menu</h1>
                             <a href="#" className="text-gray-400 cursor-pointer">Home</a>
