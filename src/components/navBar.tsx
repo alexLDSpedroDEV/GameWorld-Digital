@@ -44,7 +44,6 @@ const NavBar = (props: MyProps) => {
                     <a className=' hover:text-[#3CB6C0]'> Games </a>
                 </div>
                 <div className=' hidden md:flex text-gray-500 gap-4  pr-7 justify-end text-center items-center mr-4 md:text-[1rem]'>
-                    <a href=''  className='font-bold hover:text-[#3CB6C0]'><HiOutlineBellAlert /></a>
                     <a href=''  className='font-bold hover:text-[#3CB6C0] uppercase'><FaShoppingCart/></a>
                 </div>
             </div>
